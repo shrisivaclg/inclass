@@ -1,0 +1,26 @@
+{
+  "name": "inclass",
+  "version": "1.0.0",
+  "description": "A React app for in-class activity.",
+  "main": "index.js",
+  "homepage": "https://shrisivaclg.github.io/inclass",
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.1",
+    "parcel": "^2.3.2",
+    "process": "^0.11.10",
+    "gh-pages": "^5.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
