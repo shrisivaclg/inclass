@@ -2,10 +2,10 @@
   "name": "inclass",
   "version": "1.0.0",
   "description": "A React app for in-class activity.",
-  "main": "index.js",
   "homepage": "https://shrisivaclg.github.io/inclass",
   "scripts": {
     "start": "parcel src/index.html --open",
+    "start-dev": "parcel src/index.html --open -p 8080",
     "build": "parcel build src/index.html --public-url ./",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
